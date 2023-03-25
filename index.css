@@ -1,0 +1,81 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    left: 100px;
+    top: 200px;
+    animation-name: animatsiya1;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-play-state: running;
+  
+}
+@keyframes animatsiya1{
+    from{
+        top:200px;
+       
+    }
+    to{
+        top: 150px;
+       background-color: transparent;
+    }
+}
+.box2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    left: 150px;
+     top: 180px; 
+    animation-name: animatsiya2;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    position: relative;
+    animation-timing-function: linear;
+    
+}
+@keyframes animatsiya2{
+    from{
+        top: 180px;
+        
+       
+    }
+    to{
+        top: 130px;
+        background-color: transparent;
+    }
+}
+.box3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    left: 200px;
+     top: 160px; 
+    animation-name: animatsiya3;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-delay:3s;
+    position: relative;
+    animation-timing-function: linear;
+}
+@keyframes animatsiya3{
+   
+    from{
+        top: 160px;
+      
+    }
+    to{
+        top: 110px;
+       background-color: transparent;
+    }
+}
